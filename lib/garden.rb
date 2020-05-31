@@ -1,5 +1,5 @@
-# Something is missing here
-
+# We need to get code from the Plants class in order to run things like Plant.new and Plant.all
+require_relative './plant.rb'
 class Garden
   attr_accessor :name
 
