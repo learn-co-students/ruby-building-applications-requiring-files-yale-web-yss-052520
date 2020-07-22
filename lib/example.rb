@@ -12,6 +12,8 @@ class Garden
   end
 end
 
+#######################################
+
 class Plant
   attr_accessor :garden, :name
 
@@ -26,6 +28,8 @@ class Plant
     @@all
   end
 end
+
+#######################################
 
 lawn = Garden.new(name: 'Front Lawn')
 
